@@ -95,7 +95,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px; 
-     column-gap: 24px;
+    column-gap: 24px;
     text-align: left;
     align-items: flex-start; 
     width: 528px;
@@ -106,6 +106,16 @@
     gap: 24px;
     }
   .input-email {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
+  .button-list {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+.main-content {
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
 }

@@ -613,14 +613,15 @@ border-color: var(--secondary-accent-color);
 
 .button-list {
 display: flex;
-justify-content: center;
-gap: 24px;
-margin-bottom: 72px;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 16px;
+margin-bottom: 48px;
 }
 
 .main-content {
-padding-top: 96px;
-padding-bottom: 120px;
+padding-top: 48px;
+padding-bottom: 48px;
 }
 
 .button-portfolio {
@@ -795,9 +796,7 @@ display: block;
 margin-bottom: 16px;
 }
 
-.form {
- /* margin-left: 80px; */
-}
+
 
 .input-email {
 width: 264px;
