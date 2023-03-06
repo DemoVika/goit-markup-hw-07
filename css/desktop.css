@@ -1,0 +1,135 @@
+
+@media screen and (min-width: 1200px) {
+    .container {
+    width: 1158px;
+    }
+
+    .team>.container {
+    max-width: 1158px;
+    }
+
+    .team-item {
+    width: calc((100% - 72px) / 4);
+    }
+
+    .container-feature {
+    display: flex;
+    background-color: var(--background-color-team);
+    height: 112px;
+    width: 264px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .feature-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    }
+
+    .feature-item {
+    width: calc((100% - 30px) / 4);
+    }
+
+    .feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    }
+
+  /* .feature-title {
+    margin-top: 8px;
+    } */
+    
+  .feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    margin-bottom: 8px;
+    }
+
+  .customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    }
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    }
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  Width: 496px;
+  height: 120px;
+}
+.hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.button-main {
+  margin-top: 48px;
+}
+.overlay {
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(../images/hero-desk-1x.jpg);
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay {
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-desk-2x.jpg);
+  }
+}
+.works {
+   padding-bottom: 120px;
+ }
+ .works-list {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .works-item:not(:nth-child(3n)) {
+   margin-right: 24px;
+ }
+.works-title {
+  display: block;
+}
+.button-hamburger {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+ .contacts {
+   display: flex;
+   flex-direction: row;
+   margin-left: auto;
+   gap: 40px;
+ }
+
+ footer { 
+padding-top: 100px;
+padding-bottom: 100px;
+ }
+
+ .container-footer {
+  width: 1158px;
+  gap: 0;
+ }
+
+ .container-footer-logo {
+  margin-right: 120px;
+ }
+ .container-social-media {
+  margin-right: 80px;
+}
+
+
+
+}
+
+

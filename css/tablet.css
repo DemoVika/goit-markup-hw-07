@@ -1,0 +1,111 @@
+
+@media screen and (min-width: 768px) {
+    .container {
+    width: 768px;    
+    }
+    .team >.container {
+     max-width: 582px;   
+    }
+
+    .team-item {
+    width: calc((100% - 24px) / 2);
+    }
+    .team-list {
+    row-gap: 64px;    
+    }
+    .team {
+    padding-bottom: 104px;
+    }
+    .feature-item {
+    width: calc((100% - 32px) / 2);
+    }
+    .feature-list {
+    column-gap: 24px;
+    }
+    .feature-title {
+    text-align: left;    
+    }
+    .customers-item {
+    width: calc((100% - 32px) / 3);
+    }
+    .hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+    }
+    .button-main {
+    margin-top: 40px;
+    }
+    .overlay {
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero-tab-1x.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .overlay {
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-tab-2x.jpg);
+    }
+    }
+    .menu {
+    display: flex;
+    align-items: center;
+    }
+    
+                            
+    .button-hamburger {
+    display: none;
+    } 
+    
+    .header {
+    border-bottom: 1px solid var(--secondary-background-color);
+    }
+    
+    .header-container {
+    display: flex;
+    align-items: center;
+    }
+    
+    .header-nav {
+    display: flex;
+    align-items: center;
+    }
+   
+    .menu {
+    display: flex;
+    align-items: center;
+    }
+
+    .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    }
+
+    .header-contacts {
+    margin-left: auto;
+    }
+
+    .modal {
+    width: 408px;
+    }
+
+    .container-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px; 
+     column-gap: 24px;
+    text-align: left;
+    align-items: flex-start; 
+    width: 528px;
+    }
+    
+    .container-email-button {
+    flex-direction: row;
+    gap: 24px;
+    }
+  .input-email {
+      margin-bottom: 0;
+  }
+}
