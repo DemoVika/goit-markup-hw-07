@@ -18,6 +18,19 @@ background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 6
 url(../images/hero-mob-2x.jpg);
 }
 }
+  
+@media screen and (min-width: 428px) {
+  .mobile-phone {
+    font-size: 36px;
+  }
+
+}
+
+
+
+
+    
+  
 
 
 

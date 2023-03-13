@@ -4,7 +4,7 @@
     width: 768px;    
     }
     .team >.container {
-     max-width: 582px;   
+     max-width: 584px;   
     }
 
     .team-item {
@@ -24,6 +24,9 @@
     }
     .feature-title {
     text-align: left;    
+    }
+    .container-customers {
+      width: 584px;
     }
     .customers-item {
     width: calc((100% - 32px) / 3);
@@ -109,13 +112,22 @@
     margin-bottom: 0;
   }
   .button-list {
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 64px;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 64px;
   }
 .main-content {
-    padding-top: 64px;
-    padding-bottom: 96px;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.application-list {
+ column-gap: 24px;
+ row-gap: 72px;
+}
+
+.application-item {
+  width: calc((100% - 56px) / 2);
 }
 
 }
